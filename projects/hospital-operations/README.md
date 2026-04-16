@@ -1,71 +1,47 @@
-# 🏥 Hospital Operations Analysis
+# Hospital Operations Analysis
 
-## Project Overview
-Comprehensive analysis of triage, prescription, and delivery workflows to identify bottlenecks in pharmacy operations and evaluate clinical effectiveness.
+## Context
 
-## Objective
-To systematically measure and optimize key operational processes in hospital settings, focusing on:
-- Patient triage efficiency
-- Prescription processing workflows
-- Medication delivery performance
-- Resource allocation and capacity planning
+This project analyzes hospital pharmacy operations, focusing on triage time and prescription flow.
 
-## Key Metrics Analyzed
+Goal: identify delays and operational bottlenecks that impact efficiency.
 
-### Triage Performance
-- Average triage time (minutes)
-- SLA compliance rate (%)
-- Peak demand periods
-- Resource allocation effectiveness
+## Data
 
-### Prescription Processing
-- Prescription analysis rate (%)
-- Average processing time per prescription
-- Identification of bottlenecks by department
-- Trends over time
+Simulated dataset based on real hospital workflows.
 
-### Delivery Operations
-- Average delivery time
-- On-time delivery rate (%)
-- Volume handled vs. capacity
-- Efficiency improvements over time
+Columns:
+- triage_time (datetime)
+- department (sector)
+- prescriptions_count
+- triage_time_minutes
+- delay_flag (0 = on time, 1 = delayed)
 
-## Methodology
+## Analysis
 
-1. **Data Collection** – Extract operational data from hospital systems (AGHU)
-2. **Data Cleaning** – Standardize and validate data for accuracy
-3. **Analysis** – Identify patterns, delays, and inefficiencies
-4. **Visualization** – Present findings in Power BI dashboards
-5. **Recommendations** – Propose actionable improvements based on data
+The analysis focuses on:
 
-## Tools & Technologies
-- **Python** – pandas for data manipulation, matplotlib for exploratory analysis
-- **SQL** – Data extraction and transformation
-- **Excel** – Operational modeling and calculations
-- **Power BI** – Dashboard creation and reporting
+- Average triage time by hour  
+- Delay distribution  
+- Department performance  
 
-## Key Findings
+## Key Insights
 
-### Identified Bottlenecks
-- Peak triage times during specific hours
-- Prescription backlog in pharmacy department
-- Delivery delays due to resource constraints
+- Peak delays occur between 14:00 and 18:00  
+- Some departments concentrate higher average delays  
+- Triage time exceeds expected SLA during high workload periods  
 
-### Recommended Improvements
-- Redistribute staff during peak periods
-- Implement batch processing for prescriptions
-- Optimize delivery routing
+## Visuals
 
-## Results & Impact
-- **X%** reduction in average triage time
-- **Y%** improvement in prescription processing rate
-- **Z%** increase in on-time delivery rate
+(Insert charts here after running notebook)
 
-## How to Use This Project
-- Review the analysis methodology and findings
-- Adapt metrics to your hospital's needs
-- Use Power BI dashboard for ongoing monitoring
+## Conclusion
 
+- Adjust staffing during peak hours  
+- Review workflow in high-delay departments  
+- Monitor triage SLA continuously  
+
+This analysis supports operational decision-making in hospital pharmacy services.
 ---
 
 **Contact:** luandarodrigues30@gmail.com | [LinkedIn](https://www.linkedin.com/in/luanda-rodrigues/)
