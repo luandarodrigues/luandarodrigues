@@ -1,71 +1,71 @@
-# 🏥 Hospital Operations Analysis
+# 📊 Luanda Rodrigues – Healthcare Data Analyst
 
-## Project Overview
-Comprehensive analysis of triage, prescription, and delivery workflows to identify bottlenecks in pharmacy operations and evaluate clinical effectiveness.
-
-## Objective
-To systematically measure and optimize key operational processes in hospital settings, focusing on:
-- Patient triage efficiency
-- Prescription processing workflows
-- Medication delivery performance
-- Resource allocation and capacity planning
-
-## Key Metrics Analyzed
-
-### Triage Performance
-- Average triage time (minutes)
-- SLA compliance rate (%)
-- Peak demand periods
-- Resource allocation effectiveness
-
-### Prescription Processing
-- Prescription analysis rate (%)
-- Average processing time per prescription
-- Identification of bottlenecks by department
-- Trends over time
-
-### Delivery Operations
-- Average delivery time
-- On-time delivery rate (%)
-- Volume handled vs. capacity
-- Efficiency improvements over time
-
-## Methodology
-
-1. **Data Collection** – Extract operational data from hospital systems (AGHU)
-2. **Data Cleaning** – Standardize and validate data for accuracy
-3. **Analysis** – Identify patterns, delays, and inefficiencies
-4. **Visualization** – Present findings in Power BI dashboards
-5. **Recommendations** – Propose actionable improvements based on data
-
-## Tools & Technologies
-- **Python** – pandas for data manipulation, matplotlib for exploratory analysis
-- **SQL** – Data extraction and transformation
-- **Excel** – Operational modeling and calculations
-- **Power BI** – Dashboard creation and reporting
-
-## Key Findings
-
-### Identified Bottlenecks
-- Peak triage times during specific hours
-- Prescription backlog in pharmacy department
-- Delivery delays due to resource constraints
-
-### Recommended Improvements
-- Redistribute staff during peak periods
-- Implement batch processing for prescriptions
-- Optimize delivery routing
-
-## Results & Impact
-- **X%** reduction in average triage time
-- **Y%** improvement in prescription processing rate
-- **Z%** increase in on-time delivery rate
-
-## How to Use This Project
-- Review the analysis methodology and findings
-- Adapt metrics to your hospital's needs
-- Use Power BI dashboard for ongoing monitoring
+**Data-driven professional transforming hospital operations through analytical insights, process optimization, and actionable metrics.**
 
 ---
 
-**Contact:** luandarodrigues30@gmail.com | [LinkedIn](https://www.linkedin.com/in/luanda-rodrigues/)
+## 🏥 About Me
+
+I'm a **Data Analyst specializing in healthcare operations**, with a foundation in clinical pharmacy workflows and hospital management systems. I leverage data to identify inefficiencies, optimize processes, and support evidence-based decision-making in large public hospital environments.
+
+My approach is **practical and results-oriented**: I focus on measuring what matters, identifying where delays and bottlenecks occur, and recommending solutions that can actually be implemented.
+
+### Key Strengths
+- 📈 **Healthcare domain expertise** – deep understanding of clinical workflows, prescription processes, and operational challenges
+- 🔍 **Process optimization** – identifying inefficiencies and quantifying impact
+- 📊 **Translating data into action** – bridging the gap between analytics and hospital management decisions
+- 🎯 **Operational intelligence** – building indicators that drive real change
+
+---
+
+## 🛠️ Technical Toolkit
+
+| Category | Tools |
+|----------|-------|
+| **Data Analysis & Modeling** | Excel (advanced formulas, operational models), Python (pandas, matplotlib, NumPy) |
+| **Databases & Queries** | SQL (data extraction, complex joins, performance analysis) |
+| **Visualization & BI** | Power BI (dashboards, KPI monitoring, interactive reports) |
+| **Domain Systems** | AGHU / Hospital Management Systems (data context, structure, workflows) |
+
+---
+
+## 💼 Featured Projects
+
+### 1. 🏥 Hospital Operations Analysis
+**Comprehensive analysis of triage, prescription, and delivery workflows**
+
+Identifies bottlenecks in pharmacy operations and evaluates clinical effectiveness.
+
+- **Key Metrics:** Triage time, prescription analysis rates (%), delivery performance
+- **Impact:** Reveals where delays occur and proposes data-backed improvements
+- **Tools:** Python | Excel | Power BI
+- **[View Project](./projects/hospital-operations)**
+
+---
+
+### 2. 📋 Prescription Data – SQL Analysis  
+**Structured query analysis for operational intelligence**
+
+Deep-dive into prescription processing delays and departmental performance variation.
+
+- **Analysis:** Comparison between departments, average delays by sector, volume vs. processing capacity
+- **Outcome:** Quantifies inefficiencies and capacity constraints
+- **Tools:** SQL | Relational Databases
+- **[View Project](./projects/sql-prescriptions)**
+
+---
+
+### 3. 📊 Operational Dashboard – KPI Monitoring
+**Real-time performance tracking for hospital management**
+
+Centralized dashboard monitoring critical operational indicators.
+
+- **Tracked Metrics:** Triage SLA compliance, delivery volume, effectiveness rates, process delays
+- **Users:** Hospital management and operations teams
+- **Design:** Intuitive, actionable insights for decision-makers
+- **Tools:** Power BI
+- **[View Project](./projects/dashboard-indicators)**
+
+---
+
+## 🎯 My Approach
