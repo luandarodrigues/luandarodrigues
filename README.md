@@ -66,6 +66,3 @@ Centralized dashboard monitoring critical operational indicators.
 - **Tools:** Power BI
 - **[View Project](./projects/dashboard-indicators)**
 
----
-
-## 🎯 My Approach
